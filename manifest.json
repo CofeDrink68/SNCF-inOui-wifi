@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "SNCF",
+    "version": "1.2",
+
+    "description": "SNCF WiFi Utility",
+
+    "developer": {
+        "name": "Vincent SAHLER",
+        "url": "https://github.com/CofeDrink68"
+    },
+    
+    "homepage_url": "https://github.com/CofeDrink68/MBN-Ma-Moyenne",
+    
+    "icons": {
+        "48": "icons/48.png"
+    },
+
+
+    "content_scripts": [
+      {
+        "matches": ["https://wifi.sncf/*"],
+        "js": ["wifi.js"]
+      }
+    ]
+}
